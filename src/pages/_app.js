@@ -1,5 +1,5 @@
-import { createContext, useState } from 'react';
-import '../styles/styles.scss';
+import { createContext, useState } from "react";
+import "../styles/styles.scss";
 
 export const CartContext = createContext();
 const MyApp = ({ Component, pageProps }) => {

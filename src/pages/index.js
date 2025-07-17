@@ -20,7 +20,7 @@ export default function Home() {
       <Advantage />
       <TopCategories />
       <Info />
-      <NewArrivals />
+      {/* <NewArrivals /> */}
       <LatestNews />
       <Subscribe />
     </Layout>

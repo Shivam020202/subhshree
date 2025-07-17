@@ -63,10 +63,9 @@ export const Header = () => {
             </Link>
           </div>
           <div style={{ right: openMenu ? 0 : -360 }} className="header-box">
-            {/* Nav */}
             <Nav navItem={navItem} />
-            {/* header options */}
-            <ul className="header-options">
+
+            {/* <ul className="header-options">
               <li>
                 <Link href="/faq">
                   <a>
@@ -96,7 +95,7 @@ export const Header = () => {
                   </a>
                 </Link>
               </li>
-            </ul>
+            </ul> */}
           </div>
 
           <div
