@@ -1,0 +1,10 @@
+[build]
+  command = "next build"
+  publish = ".next" # Confirmed correct from your Netlify settings
+
+# Redirect all unmatched paths to the root index.html
+# This is crucial for client-side routing in static Next.js apps
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
